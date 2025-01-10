@@ -1,0 +1,44 @@
+﻿  lab2round.cpp
+E:\WORK\SysP\SPLab2\Task2\lab2round\lab2round.cpp(113,14): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\WORK\SysP\SPLab2\Task2\lab2round\lab2round.cpp(220,25): warning C4244: =: преобразование "double" в "FLOAT", возможна потеря данных
+E:\WORK\SysP\SPLab2\Task2\lab2round\lab2round.cpp(221,25): warning C4244: =: преобразование "double" в "FLOAT", возможна потеря данных
+E:\WORK\SysP\SPLab2\Task2\lab2round\lab2round.cpp(222,22): warning C4244: =: преобразование "double" в "FLOAT", возможна потеря данных
+E:\WORK\SysP\SPLab2\Task2\lab2round\lab2round.cpp(223,25): warning C4244: =: преобразование "double" в "FLOAT", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244: инициализация: преобразование "_Ty" в "_Ty", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:             _Ty=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         ]
+  (компиляция исходного файла "lab2round.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          E:\WORK\SysP\SPLab2\Task2\lab2round\lab2round.cpp(127,16):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::tuple<float,float,std::wstring,int>::tuple<double,double,std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,int&,0>(_This2 &&,double &&,std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &&,int &) noexcept"
+          with
+          [
+              _This2=double
+          ]
+              E:\WORK\SysP\SPLab2\Task2\lab2round\lab2round.cpp(127,14):
+              см. первую ссылку на "std::tuple<float,float,std::wstring,int>::tuple" в "Resize"
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(358,16):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::tuple<float,float,std::wstring,int>::tuple<std::_Exact_args_t,_Ty,_Ty,std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,int&,0>(_Tag,_This2 &&,_Ty &&,std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>> &&,int &)"
+          with
+          [
+              _Ty=double,
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(312,102):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)"
+          with
+          [
+              _This=float,
+              _Ty=double,
+              _Other=double
+          ]
+  
+  lab2round.vcxproj -> E:\WORK\SysP\SPLab2\Task2\x64\Debug\lab2round.exe
